@@ -3,5 +3,5 @@
 from odoo import models, fields, api
 
 class Course(models.Model):
-    -name = 'acadey.course'
-    -description = 'Course Info'
+    _name = 'acadey.course'
+    _description = 'Course Info'
